@@ -12,3 +12,4 @@ jobs:
 #           pip install -r requirements.txt
       - name: Run Tests
         run: python -m unittest tests/*.py
+        working-directory: ./tests
