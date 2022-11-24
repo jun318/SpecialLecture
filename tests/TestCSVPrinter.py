@@ -1,5 +1,7 @@
 import unittest
 from speciallecture.CSVPrinter import CSVPrinter
+import sys
+sys.path.append("/tests")
 
 
 class TestCSVPrinter(unittest.TestCase):
